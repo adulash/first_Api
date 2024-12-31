@@ -40,5 +40,5 @@ def calculate_bmi(weight: float=Query(..., gt=20,lt=200, description="الوزن
 
 
 #uvicorn try_api:app --reload
-#http://127.0.0.1:8000/calculate_bmi?weight=76&height=1.67
-#http://127.0.0.1:8000/docs التوثيق التلقائي
+#http:8000/calculate_bmi?weight=76&height=1.67
+#http:8000/docs التوثيق التلقائي
